@@ -1,0 +1,219 @@
+/*
+* Section - Hero
+*/
+
+/** BG - Static */
+#hero-bg-static {
+  background-image: url("../images/bg-hero.jpg");
+}
+
+/** BG - Parallax */
+#hero-bg-parallax > .bg-img-parallax {
+  background: url("../images/bg-hero-parallax.jpg");
+}
+
+/** BG - Slider */
+#hero-bg-slider .flickity-slider > .carousel-cell:nth-child(1) {
+  background: url("../images/bg-hero-slide-1.jpg");
+}
+
+#hero-bg-slider .flickity-slider > .carousel-cell:nth-child(2) {
+  background: url("../images/bg-hero-slide-2.jpg");
+}
+
+#hero-bg-slider .flickity-slider > .carousel-cell:nth-child(3) {
+  background: url("../images/bg-hero-slide-3.jpg");
+}
+
+/** BG - Slideshow */
+#hero-bg-slideshow .slides > .bg-img-cover:nth-child(1) {
+  background: url("../images/bg-hero-slide-1.jpg");
+}
+
+#hero-bg-slideshow .slides > .bg-img-cover:nth-child(2) {
+  background: url("../images/bg-hero-slide-2.jpg");
+}
+
+#hero-bg-slideshow .slides > .bg-img-cover:nth-child(3) {
+  background: url("../images/bg-hero-slide-3.jpg");
+}
+
+/** BG - Video */
+#hero-bg-video:before {
+  z-index: 15;
+}
+
+#hero-bg-video .container {
+  position: relative;
+  z-index: 20;
+}
+
+#hero-bg-video .player.is-mobile {
+  display: none;
+}
+
+
+/*
+* Countdown
+*/
+
+#countdown {
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+
+/*
+* Section - Venue
+*/
+
+#whitepaper {
+  background-image: url("../images/bg-whitepaper.jpg");
+}
+
+
+/*
+* Promo
+*/
+
+#promo {
+  background-image: url("../images/bg-promo.jpg");
+}
+
+
+/*
+* Ticket
+*/
+
+#ticket {
+  background-image: url("../images/bg-ticket.jpg");
+}
+
+
+/*
+* Register
+*/
+
+#whitelist {
+  background-image: url("../images/bg-whitelist.jpg");
+}
+
+
+/*
+* Footer
+*/
+
+.footer-logo {
+  max-height: 40px;
+}
+
+.footer-icon-social {
+  bottom: 10px;
+  position: relative;
+}
+
+/*
+* Add
+*/
+button:focus, button:active { outline: none !important;  box-shadow: none;}
+.section_home_title {text-align: center;}
+.section_home_title img {width:500px!important; height:auto; margin:20px auto;}
+
+@media (max-width: 991.98px) {
+.section_home_title img {width:240px!important;; height:auto; margin:20px auto;}
+}
+.bg-overlay-red:before {
+  background: rgba(224, 60, 49, 0.5) !important;
+}
+.bg-roadmap {
+  background-color: #2a2d32 !important;
+}
+/* Timeline */
+#timeline {
+  margin-top: 50px;
+  text-align: center;
+}
+ .timeline {
+  border-left: 4px solid #e03c31;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Chivo', sans-serif;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 90%;
+}
+.timeline h1 {
+    visibility: hidden;
+    line-height:0;
+}
+@media (max-width: 560px){
+    .timeline h1 {
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 1.2em;
+    visibility: visible;
+    line-height:1.5em;}
+    }
+.timeline h2,
+.timeline h3 {
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+.timeline .event {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  left: -217.5px;
+  color: rgba(255, 255, 255, 0.4);
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+.timeline .event:after {
+  box-shadow: 0 0 0 4px #e03c31;
+  left: -57.85px;
+  background: #313534;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
+.fig-1 {background-color: #f5f5f5; padding:20px 10px 20px; overflow:visible; text-align: center;}
+.fig-web{visibility: visible;}
+.fig-mobile {visibility: hidden;height:0px;}
+.fig-1 h5 {text-transform: uppercase; padding-top:2em;}
+@media (max-width: 1200px){
+    .fig-web {
+    visibility: hidden;
+    height:0px;}
+    .fig-mobile {
+    visibility: visible!important; height:auto!important; }
+    }
+.disable {pointer-events: none;}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myLottery</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 id="output"></h2>
+
+        <img id="loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+
+        <label class="col-lg-2 control-label"> Name</label>
+        <input id="name" type="text">
+        <label class="col-lg-2 control-label"> Age</label>
+        <input id="age" type="text">
+        <button id="button">Set</button>
+
+    </div>
+
+    <script>
+    //-----------------------
+    // 0. Web3 Connect
+    //-----------------------
+    if (typeof web3 !== 'undefined') {
+        web3 = new Web3(web3.currentProvider);
+    } else {
+        web3 = new Web3(new Web3.providers.HttpProvider("http://52.36.76.31:8545")); // please change to your own Web3_Provider_Endpoint.
+    }
+    web3.eth.defaultAccount = web3.eth.accounts[0];
+    console.log(web3.eth.defaultAccount);
+
+    var ABI = [
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_name",
+                    "type": "string"
+                },
+                {
+                    "name": "_age",
+                    "type": "uint256"
+                }
+            ],
+            "name": "setVal",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getVal",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "indexed": false,
+                    "name": "age",
+                    "type": "uint256"
+                }
+            ],
+            "name": "First",
+            "type": "event"
+        }
+    ];
+    var myContract = web3.eth.contract(ABI);
+    var myFirst = myContract.at('0x17320ba8abab4bca3cfac50014c651bda6bf8443'); // Please change to your own Contract_Account.
+    console.log(myFirst);
+
+    //-----------------------
+    // 1. Get
+    //-----------------------
+    myFirst.getVal(function(error, result) {
+        if (!error) {
+            $("#output").html('name : ' + result[0]+' ('+result[1]+' years old)');
+        } else {
+            console.log(error);
+        }
+    });
+
+    //-----------------------
+    // 2. Set
+    //-----------------------
+    $("#button").click(function() {
+         $("#loader").show();
+        myFirst.setVal($("#name").val(), $("#age").val());
+    });
+
+    //-----------------------
+    // 3. Event Watch
+    //-----------------------
+    var firstEvent = myFirst.First();
+    firstEvent.watch(function(error, result){
+        if (!error)
+        {
+            $("#loader").hide();
+            $("#output").html('name : ' + result.args.name+' ('+ result.args.age + ' years old)');
+        } else {
+            $("#loader").hide();
+            console.log(error);
+        }
+    });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* Frutiger 55 */
+@font-face {
+  font-family: 'Frutiger';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/frutiger/Frutiger-Roman.eot);
+  src: 
+       url(../fonts/frutiger/Frutiger-Roman.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/frutiger/Frutiger-Roman.woff2) format('woff2'),
+       url(../fonts/frutiger/Frutiger-Roman.woff) format('woff'),
+       url(../fonts/frutiger/Frutiger-Roman.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/open-sans/OpenSans-Regular.eot);
+  src: local('Open Sans Regular'),
+       local('OpenSans-Regular'),
+       url(../fonts/open-sans/OpenSans-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/open-sans/OpenSans-Regular.woff2) format('woff2'),
+       url(../fonts/open-sans/OpenSans-Regular.woff) format('woff'),
+       url(../fonts/open-sans/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/open-sans/OpenSans-Bold.eot);
+  src: local('Open Sans Bold'),
+       local('OpenSans-Bold'),
+       url(../fonts/open-sans/OpenSans-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/open-sans/OpenSans-Bold.woff2) format('woff2'),
+       url(../fonts/open-sans/OpenSans-Bold.woff) format('woff'),
+       url(../fonts/open-sans/OpenSans-Bold.ttf) format('truetype');
+}
+
+/* Abel */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/abel/Abel-Regular.eot'); /* IE9 Compat Modes */
+  src: local('Abel Regular'), local('Abel-Regular'),
+       url('../fonts/abel/Abel-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/abel/Abel-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/abel/Abel-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/abel/Abel-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/abel/Abel-Regular.svg#Abel') format('svg'); /* Legacy iOS */
+}
