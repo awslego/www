@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://www.etherstudy.net/geth.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Session 2. Geth 실습 가이드</title>
+	
+	<link href="./Session 2. Geth 실습 가이드_files/nanumgothic.css" rel="stylesheet">
+	<link href="./Session 2. Geth 실습 가이드_files/nanumgothiccoding.css" rel="stylesheet">
+	<link href="./Session 2. Geth 실습 가이드_files/Styles.css" rel="stylesheet">
+</head>
+<body>
+	<h1 id="main_title" align="center">Session 2. Geth 실습 가이드</h1>
+
+<!--Step 1-->
+	<div class="steps">
+		<h3 class="sub_title">Step 1. Geth 설치 및 실행</h3>
+		<div class="content">
+			<ol>
+				<!--li>Geth 다운로드</li>
+				<p>운영체제에 맞는 Geth 클라이언트를 다운로드하세요.<a href="https://geth.ethereum.org/downloads/" target="_blank">링크</a></p><br><br>
+				<li>Geth 설치하기</li>
+				<p>Windows: 인스톨러의 가이드에 따라 설치하세요.(환경변수 자동 등록)</p>
+				<p>Mac: Users/Username 디렉토리에 설치하세요.(Home 디렉토리)</p><br><br-->
+				<li>Geth 설정하기 </li>
+				<p>Mist에 내장된 Geth를 사용하기위해 Geth의 PATH를 변경합니다. </p>
+				<p>(만일 Mist 내장된 Geth를 사용하지 않고, 별도로 Geth 설치하려면 다음 Geth 클라이언트를 다운로드하세요. <a href="https://geth.ethereum.org/downloads/" target="_blank">링크</a>)</p>
+				<!--table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>~/> cd etherstudy/day2 </code></p>
+						</td>
+					</tr>
+				</table>
+
+				<p>Mac일 경우,</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>~/etherstudy/day2> source gethenv.sh</code></p>
+						</td>
+					</tr>
+				</table>
+				<p>Window일 경우,</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td>
+							<p><code>~/etherstudy/day2> gethenv.bat</code></p>
+						</td>
+					</tr>
+				</table-->
+
+				<p>Window일 경우,</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tbody><tr>
+						<td>
+							<p><code>&gt; set PATH=%USERPROFILE%\AppData\Roaming\Mist\binaries\Geth\unpacked;%PATH%<br>
+							&gt; echo %PATH%</code></p>
+						</td>
+					</tr>
+				</tbody></table>
+                <p>Mac일 경우,</p>
+                <table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+                    <tbody><tr>
+                        <td>
+                            <p><code>&gt; export&nbsp;PATH=${HOME}/Library/Application\&nbsp;Support/Mist/binaries/Geth/unpacked:${PATH}<br>
+                            &gt; echo $PATH</code></p>
+                        </td>
+                    </tr>
+                </tbody></table>
+				<br><br>
+
+				<li>Geth 실행하기</li>
+				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tbody><tr>
+						<td>
+							<p><code>&gt; geth console</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<h3 class="step_final">완료조건: 프롬프트가 깜빡이는지 확인하세요.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(확인이 완료되면 'exit' 로 Geth 콘솔을 종료하세요.)</h3>
+				<img src="./Session 2. Geth 실습 가이드_files/geth_run.png" width="800px" border="1px">
+			</ol>
+		</div>
+	</div>
+	<br>
+	
+<!--Step 2-->
+	<div class="steps">
+		<h3 class="sub_title">Step 2. Private network 접속(1) - 제네시스블록 생성</h3>
+		<div class="content">
+			<ol>
+				<!--li>Genesis.json 다운로드</li>
+				<p>실습용 Private chain에 연결하기 위해 Genesis.json 파일을 다운로드하세요.<a href="genesis/genesis.json" download>다운로드</a></p>
+				<p>※ Genesis.json 다운로드 Directory(권장)</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td>
+							<p><code>Windows: C:\Users\Username</code></p>
+							<p><code>Mac: Users\Username</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				<li>Genesis initialization</li-->
+				<p>Genesis.json 파일을 다운로드 받아 콘솔에 아래와 같이 입력하여 Geth를 init하세요. <a href="http://www.etherstudy.net/genesis/genesis.json" download="">다운로드</a></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td>
+							<p><code>&gt; geth --datadir private-data init genesis.json</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<h3 class="step_final">완료조건: Successfully wrote genesis state 메시지 출력</h3>
+				<img src="./Session 2. Geth 실습 가이드_files/genesis_init2.png" width="800px" border="1px">
+			</ol>
+		</div>
+	</div>
+
+<!--Step 3-->
+	<div class="steps">
+		<h3 class="sub_title">Step 3. Private network 접속(2) - 접속하기</h3>
+		<div class="content">
+			<ol>
+				<li>프라이빗 네트워크 상호간에 빠르게 연결하기 </li>
+				<p> ./private-data 디렉토리에 static-nodes.json 파일 저장하세요.  &nbsp; <a href="http://www.etherstudy.net/static-nodes/1/static-nodes.json" download="">다운로드1</a> &nbsp; <a href="http://www.etherstudy.net/static-nodes/2/static-nodes.json" download="">다운로드2</a></p><br>
+				<img src="./Session 2. Geth 실습 가이드_files/bootnode.png"><br><br>
+				
+                                <li>실습용 Account 다운로드하기</li>
+				<p>이 <a href="http://www.etherstudy.net/Account_download.html" target="_blank">링크</a>에서 본인의 좌석번호와 같은 실습용 Account를 다운로드한 후 ./private-data/keystore에 압축을 해제하세요.</p>
+				<img src="./Session 2. Geth 실습 가이드_files/geth_env_dir.png" width="400px" border="1px"><br><br>
+
+				
+				<li>Console mode로 Geth 실행하기</li>
+				<p>콘솔에 아래와 같이 입력하여 Geth를 실행하세요.(rcp 옵션 포함됨)</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tbody><tr>
+						<td>
+							<p><code>&gt; geth --datadir private-data --networkid 15 --rpc --rpccorsdomain "*" --rpcapi "admin,db,eth,miner,net,txpool,personal,web3" console
+							</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+
+				<!--
+				<p><b>Bootnode 1</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 1번 ~ 8번까지 1번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://050e541ba9321debf17e0e020caef78e0dfb20852f85b88cf2019885f50ace72d1f4eb650f73173df8556949e7e7c60a703fa32993c6cbdbef683a079f00b8f3@13.124.226.8:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 2</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 9번 ~ 16번까지 2번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://9d2b72b673b8daf33d3132aaa12e18b42cfa21d4f4fee9f9c3eb7775ce9b0726e9c60b1af57b0d90ae03914ca3803d43dbef2ec7683a2f38f63363bdb686a84b@13.125.35.226:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 3</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 17번 ~ 24번까지 3번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://94f9e6aa37d48560fdf4b8f6144cd9c11e3f33009462356215226778112f37e253a55c10d7e3703a639a0f130331c12e740c36d202139243e9181c0adca7c2a1@52.78.81.206:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 4</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 25번 ~ 32번까지 4번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://3387f881cfc46624928642bad2de1ca79e9d624e59717ffab1be362576daedbb9820e438fac5ed6b21dbefed7c03f5a41b0c28970fb93b7951def04e2424dc11@13.124.217.65:8080")</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Bootnode 5</b><font color="=#000000" style="font-size: 12pt"> 좌석번호 33번 ~ 40번까지 5번 Bootnode에 접속해주세요.</font></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>admin.addPeer("enode://af6af1fbd314a6bdc2920f623a555bff33099f4f6c9213858a63913c5cd0a5576e16a27bfd1220bddb7325071b0b2b4cdac8a7c5288b405035a1595d80c905ed@13.125.25.243:8080")</code></p>
+						</td>
+					</tr>
+				</table><br><br>
+				-->
+				<h3 class="step_final">완료조건: CLI명령 admin.peers 입력 시 연결된 Peer들의 정보가 출력</h3>
+				<img src="./Session 2. Geth 실습 가이드_files/admin_peers.png" width="800px" border="1px">
+				
+			</ol>
+		</div>
+	</div>
+
+<!--Step 4-->
+	<div class="steps">
+		<h3 class="sub_title">Step 4. Private network 접속(3) - 블록체인 확인</h3>
+		<div class="content">
+			<ol>
+				<!--li></li-->
+				<p>콘솔에 아래와 같이 Token Contract(1번 블록)와 CrowdFund Contract(7번 블록)의 블록체인 내용을 확인해보세요. </p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tbody><tr>
+						<td>
+							<p><code>eth.blockNumber</code></p><br>
+							<p><code>eth.getTransaction("0xb677657ec5a4d7e4f6e21d6f78c394851ccaf19d73d6aa0adfa943db77c14222")</code></p>
+							<p><code>eth.getTransactionReceipt("0xb677657ec5a4d7e4f6e21d6f78c394851ccaf19d73d6aa0adfa943db77c14222")</code></p>
+							<p><code>eth.getBlock(1)</code></p>
+							<br>
+                            <p><code>eth.getTransaction("0x8166028d02863dd820d5362440403fac1eef140a20dcdde7637d1f5239850cd4")</code></p>
+                            <p><code>eth.getTransactionReceipt("0x8166028d02863dd820d5362440403fac1eef140a20dcdde7637d1f5239850cd4")</code></p>
+							<p><code>eth.getBlock(7)</code></p>
+						</td>
+					</tr>
+				</tbody></table><br>
+			</ol>
+		</div>
+	</div>
+<!--Step 5-->
+	<div class="steps">
+		<h3 class="sub_title">Step 5. CLI 실습</h3>
+		<div class="content">
+			<ol>	
+				<li>Account 확인하기</li>
+				<p>콘솔에 아래와 같이 입력하여 보유한 Account의 List를 확인할 수 있습니다. </p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td>
+							<p><code>personal.listAccounts</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<li>실습용 Account의 Balance 확인하기</li>
+				<p>콘솔에 아래와 같이 입력하여 실습용 Account의 Balance를 확인할 수 있습니다.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td>
+							<p><code>eth.getBalance(personal.listAccounts[0])</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				
+				<h3 class="step_final">완료조건: 실습용 Account의 Balance = 100.1ETH 확인</h3>
+				<img src="./Session 2. Geth 실습 가이드_files/ether_balance.png" width="800px" border="1px"><br><br><br>
+				
+				<li>신규 Account 생성하기</li>
+				<p>콘솔에 아래와 같이 입력하여 Account를 생성하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td>
+							<p><code>personal.newAccount()</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<li>생성한 Account 확인하기</li>
+				<p>콘솔에 아래와 같이 입력하여 보유한 Account의 List를 확인할 수 있습니다. </p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td>
+							<p><code>personal.listAccounts</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				
+				<li>신규 생성한 Account의 Balance 확인하기</li>
+				<p>콘솔에 아래와 같이 입력하여 생성한 Account의 Balance를 확인할 수 있습니다.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td>
+							<p><code>eth.getBalance(personal.listAccounts[1])</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<li>신규 생성한 Account 삭제하기</li>
+				<p>실습을 위해 ./private-data/keystore 에 있는 UTC--... 파일을 삭제하세요.</p><br>
+			</ol>
+		</div>
+	</div>
+	
+<!--Step 6-->
+	<div class="steps">
+		<h3 class="sub_title">Step 6. Transaction의 처리과정</h3>
+		<div class="content">
+			<ol>
+				<li>Ether transfer</li>
+				<p>콘솔에 아래와 같이 입력하여 강사의 Account로 10ETH를 송금하세요.</p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td style="word-break: break-all">
+							<p><code>personal.sendTransaction({from:personal.listAccounts[0],to:"0x6afb711d9ec4a47496df4e7e5173a23e898bb264",value:web3.toWei(10,"ether")},"1")</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<h3 class="step_final">완료조건: 콘솔에 Submitted transaction 메시지 확인</h3>
+				<img src="./Session 2. Geth 실습 가이드_files/sendtransaction_receipt.png" width="800px" border="1px"><br><br><br><br>
+				<li>Pending Tx 확인하기</li>
+				<p>아직 블럭에 담기지 못한 Tx은 각 노드 Local의 Transaction pool에 저장됩니다.</p>
+				<p><b>Txpool 상태확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td style="word-break: break-all">
+							<p><code>txpool.status</code></p>
+						</td>
+					</tr>
+				</tbody></table><br>
+				<p><b>Txpool 상세내역 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td style="word-break: break-all">
+							<p><code>txpool.content</code></p>
+						</td>
+					</tr>
+				</tbody></table><br>
+				<p><b>송금한 금액과 수수료 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td style="word-break: break-all">
+							<p><code>txpool.inspect</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+
+				<li>Mining으로 Tx을 Block에 담아 처리하기<b>(강사만 진행합니다.)</b></li>
+				<!--p><b>Block reward를 수취할 Account를 coinbase로 세팅</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>miner.setEtherbase(personal.listAccounts[1])</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Mining 시작</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>miner.start()</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Coinbase Account의 Balance 증가 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>eth.getBalance(personal.listAccounts[1])</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<p><b>Mining한 Block 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt">
+					<tr>
+						<td style="word-break: break-all">
+							<p><code>eth.getBlock(확인할 블럭 넘버)</code></p>
+						</td>
+					</tr>
+				</table><br>
+				<img src="img/mining_block.png" width="800px" border="1px"><br><br--><br><br>
+				<p><b>강사의 Account Balance 증가 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td style="word-break: break-all">
+							<p><code>eth.getBalance(personal.listAccounts[0])</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<p><b>실습용 Account Balance 차감 확인</b></p>
+				<table border="0px" width="800px" bgcolor="black" cellpadding="10pt"> 
+					<tbody><tr>
+						<td style="word-break: break-all">
+							<p><code>eth.getBalance(personal.listAccounts[0])</code></p>
+						</td>
+					</tr>
+				</tbody></table><br><br>
+				<h3 class="step_final">완료조건: 강사의 Account Balace 확인<br><!--강사의 안내에 따라 직접 Mining을 시도해보세요.--></h3>
+				<p>Geth의 추가적인 기능은 이더리움 Wiki를 확인하세요.<a href="https://github.com/ethereum/go-ethereum/wiki/Management-APIs#list-of-management-apis" target="_blank">링크</a>
+			</p></ol>
+		</div>
+	</div>
+
+
+</body></html>
