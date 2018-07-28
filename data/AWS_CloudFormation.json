@@ -11,10 +11,20 @@
       "ConstraintDescription" : "must be a valid EC2 instance type."
     }
   },
+
+  "Mappings" : {
+    "RegionMap" : {
+      "us-west-2" : { "64" : "ami-0c628225e00486610" },
+      "ap-southeast-1" : { "64" : "ami-0408ef847d83633ed" },
+      "ap-southeast-2" : { "64" : "ami-08baf51ae7806d795" }
+    }
+  },
+
   "Resources": {
     "Ec2Instance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
+        "ImageId" : { "Fn::FindInMap" : [ "RegionMap", { "Ref" : "AWS::Region" }, "64"]},
         "InstanceType" : { "Ref" : "InstanceType" },
         "SecurityGroups": [
           {
@@ -23,10 +33,10 @@
         ],
         "KeyName": {
           "Ref": "KeyName"
-        },
-        "ImageId": "ami-074af40fdd8bb95ad"
+        }
       }
     },
+
     "InstanceSecurityGroup": {
       "Type": "AWS::EC2::SecurityGroup",
       "Properties": {
@@ -54,6 +64,18 @@
             "IpProtocol": "tcp",
             "FromPort": "8545",
             "ToPort": "8545",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "8000",
+            "ToPort": "8000",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "80",
+            "ToPort": "80",
             "CidrIp": "0.0.0.0/0"
           }
         ]
