@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    margin: 70px;
+    font-family: 'Chivo', sans-serif
+}
+
+.txt_area {
+    text-align: left;
+    margin: 70px;
+    border: 0px solid;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+    background: ghostwhite;
+}
+
+.txt_area .txt{
+    margin-left: 60px;
+    padding: 5px;
+    letter-spacing: 1.5px;
+    border: 0px solid;
+
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1125rem;
+    margin-right: 1rem;
+}
+
+.txt_area .txt .btn-red{
+    color: red;
+    padding: 1.875rem 0.9375rem;
+    border-color: #d13017;
+    border: 0px solid;
+    border-radius: 0.125rem;
+    box-shadow: none !important;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1125rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+.img_area {
+    text-align: center;
+    margin: 50px;
+    border: 0px solid;
+}
+
+img {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+}
