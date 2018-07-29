@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AWSLEGO</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="icon" href="../assets/images/favicon.png">
+
+    <link href="../assets/css/aws_styles.css" rel="stylesheet" type="text/css">
+    <style>
+        .cmd {
+            margin-left: 5px;
+            margin-right: 50px;
+            padding: 10px;
+            letter-spacing: 1.5px;
+            border: 1px solid;
+            line-height: 2em;
+        }
+    </style>
+</head>
+> web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether')
+
+> txpool.status
+> txpool.content
+> txpool.content
+<body>
+<h1>Exercise Geth Console</h1>
+<div class="txt_area">
+    <div class="txt">
+        <div class="btn-red">note</div>
+         <p> 1. Terminal #2
+            <div class="cmd">
+            <font color="gray">[ec2-user@node1] ~/mission2> ./gethconsole</font><br>
+            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether') ;<br>
+            >&nbsp; personal.sendTransaction({from:eth.accounts[0],to:"0x3dda460444df2376e91ed8ea6635768c8901d247",value:web3.toWei(10,"ether")},"1");<br>
+            <br>
+            >&nbsp; txpool.status;<br>
+            >&nbsp; txpool.content;<br>
+            >&nbsp; txpool.inspect;<br>
+            </div>
+         </p>
+         <p><font color="red">2. mining in the private network (only one miner)</font> </p>
+         <p> 3. Terminal #2
+        <div class="cmd">
+            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');
+        </div>
+        </p>
+
+         </p>
+    </div>
+</div>
+
+
+
+<div class="img_area">
+    <img src="../assets/aws_images/mission2_step2.png" alt="Paris">
+</div>
+
+</body>
+</html>

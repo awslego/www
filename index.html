@@ -251,7 +251,7 @@
                         <li class="event" data-date="step 1">
                             <h1>step 1</h1>
                             <h3>Run Ethereum Client (Local)</h3>
-                            <p>Connect to the EC2 (SSH) and Run Geth &nbsp;<a href="data/mission1_step1-1.html" target="_blank2">view > </a></p>
+                            <p>Connect to the Local Network &nbsp;<a href="data/mission1_step1-1.html" target="_blank2">view > </a></p>
                             <p>Exercise Geth Console &nbsp;<a href="data/mission1_step1-2.html" target="_blank2">view > </a> </p>
                         </li>
                         <li class="event" data-date="step 2">
@@ -294,7 +294,7 @@
                 <!-- //.col-lg-6 -->
             </div>
             <div class="col-lg-12 col-xl-12 mb-5 text-center text-lg-left">
-                <p class="font-alt font-w-600 text-large text-uppercase text-red">CONNECTING ETHEREUM PRIVATE NETWORK </p>
+                <p class="font-alt font-w-600 text-large text-uppercase text-red">CONNECTING TO THE ETHEREUM PRIVATE NETWORK </p>
                 <p class="text-medium text-white">To access the same private network, the following conditions must be required : The same Genesis block, the same network ID, the bootstrap nodes to be reference.
                     The private network environment that we connect to is as follows.
                 </p>
@@ -306,14 +306,13 @@
                         <li class="event" data-date="step 1">
                             <h1>step 1</h1>
                             <h3>Run Geth Client (Private Network)</h3>
-                            <p>Connect Private Network &nbsp;<a href="data/mission2_step1.html" target="_blank2">view > </a> </p>
-                            <p>Exercise Geth Console  &nbsp;<a href="data/mission1_step2-2.html" target="_blank2">view > </a> </p>
+                            <p>Connect to the Private Network &nbsp;<a href="data/mission2_step1.html" target="_blank2">view > </a> </p>
+                            <p>Exercise Geth Console  &nbsp;<a href="data/mission2_step1-2.html" target="_blank2">view > </a> </p>
                         </li>
                         <li class="event" data-date="step 2">
                             <h1>step 2</h1>
                             <h3>Send Transactions </h3>
-                            <p>Import Account &nbsp;<a href="http://remix.ethereum.org" target="_blank3">open</a></p>
-                            <p>Send Transactions &nbsp;<a href="http://remix.ethereum.org" target="_blank3">open</a></p>
+                            <p>Send Transactions &nbsp;<a href="data/mission2_step2.html" target="_blank3">view ></a></p>
                         </li>
 
                     </ul>
@@ -326,178 +325,6 @@
         <!-- //.container -->
     </div>
     <!-- //Section - Mission2 End -->
-
-
-    <!-- Section - Mission2 Start -->
-    <section id="Mission21" class="bg-gray-100">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-6 text-center mb-3 mb-lg-5">
-                    <h3 class="font-alt font-w-700 letter-spacing-2 m-0 text-uppercase title-large">Mission2 : Connecting Ethereum Private Network</h3>
-                    <span class="bg-red d-block mt-4 mx-auto sep-line-medium-thick-long"></span>
-                </div>
-                <!-- //.col-lg-6 -->
-            </div>
-            <!-- //.row -->
-
-            <div class="row justify-content-center">
-
-                <div class="col-lg-12 col-xl-12 mb-3 text-center text-lg-left">
-                    <p class="font-alt font-w-600 text-large text-uppercase text-red"> Goal </p>
-                    <p class="text-medium">To access the same private network, the following conditions must be required : The same Genesis block, the same network ID, the bootstrap nodes to be reference.
-                        The private network environment that we connect to is as follows.
-                    </p>
-
-                </div>
-                <!-- //.col-lg-12 -->
-                <div class="col-lg-12 col-xl-12 mb-5 text-center text-lg-left">
-                    <p class="font-alt font-w-600 text-large text-uppercase text-red"> Success </p>
-                    <p class="text-medium">To access the same private network, the following conditions must be required : The same Genesis block, the same network ID, the bootstrap nodes to be reference.
-                        The private network environment that we connect to is as follows.
-                    </p>
-
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-md-12 col-xl-4">
-                    <div class="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded mb-3" data-mh="mh-hotels">
-                        <div class="pr-3">
-                            <span class="d-block font-alt font-w-600 text-medium text-red">STEP 1. Create Genesis Block </span>
-                            <span class="d-block font-alt letter-spacing-1 mt-2 text-gray-800 text-small">
-                                - terminal #1
-                                <div class="align-items-center bg-gray-200 p-2 position-relative rounded" data-mh="mh-hotels">
-                                    node1:~> cd mission2 <br>
-                                    node1:~/mission2> ./gethinit
-                                </div>
-                                &nbsp;<a href="#" onClick="window.open('assets/aws_images/mission2_step1.png','_blank2');return false;">sample</a></span>
-                        </div>
-                        <!-- //.pr-3 -->
-                    </div>
-                    <!-- //.align-items-center -->
-                </div>
-
-                <div class="col-md-12 col-xl-4">
-                    <div class="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded mb-3" data-mh="mh-hotels">
-                        <div class="pr-3">
-                            <span class="d-block font-alt font-w-600 text-medium text-red">STEP 2. Connect Private Network</span>
-                            <span class="d-block font-alt letter-spacing-1 mt-2 text-gray-800 text-small">
-                                - terminal #1
-                                <div class="align-items-center bg-gray-200 p-2 position-relative rounded" data-mh="mh-hotels">
-                                    node1:~/mission2> ./gethclient
-                                </div>
-                                - terminal #2
-                                <div class="align-items-center bg-gray-200 p-2 position-relative rounded" data-mh="mh-hotels">
-                                    node1:~/mission2> ./gethconsole
-                                </div>
-
-                                &nbsp;<a href="#" onClick="window.open('assets/aws_images/mission2_step2.png','_blank2');return false;">sample</a>
-                            </span>
-                        </div>
-                        <!-- //.pr-3 -->
-                    </div>
-                    <!-- //.align-items-center -->
-                </div>
-
-                <!-- //.col-md-6 -->
-
-                <div class="col-md-12 col-xl-4">
-                    <div class="align-items-center bg-white border border-gray-300 box-shadow justify-content-between p-4 position-relative rounded mb-3" data-mh="mh-hotels">
-                        <div class="pr-3">
-                            <span class="d-block font-alt font-w-600 text-medium text-red">STEP 3. Exercise Geth command </span>
-                            <span class="d-block font-alt letter-spacing-1 mt-2 text-gray-800 text-small">
-                                - terminal #2
-                                <div class="align-items-center bg-white  border border-gray-500 p-2" data-mh="mh-hotels">
-                                    > eth.blockNumber<br>
-                                    > eth.accounts<br>
-                                    <br>
-                                    > net.peerCount<br>
-                                    > admin.peers<br>
-                                    <br>
-                                    > eth.getBlock(0) <br>
-                                    > eth.getBlock(7) <br>
-                                    > eth.getBlock(8) <br>
-                                    <br>
-                                    > eth.getTransactionReceipt(eth.getBlock(8).transactions[0])
-                                </div>
-                                &nbsp;<a href="#" onClick="window.open('assets/aws_images/mission2_step3.png','_blank2');return false;">sample</a>
-                            </span>
-                        </div>
-                        <!-- //.pr-3 -->
-                    </div>
-                    <!-- //.align-items-center -->
-                </div>
-                <!-- //.col-md-6 -->
-
-            </div>
-            <!-- //.row -->
-
-
-
-            <div class="row">
-                <div class="col-md-12 col-xl-4">
-                    <div class="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded mb-3" data-mh="mh-hotels">
-                        <div class="pr-3">
-                            <span class="d-block font-alt font-w-600 text-medium text-red">STEP 4. Import an account to Private network  </span>
-                            <span class="d-block font-alt letter-spacing-1 mt-2 text-gray-800 text-small">
-                                - terminal # 3 <br>
-                                <div class="align-items-center bg-gray-200 p-2 position-relative rounded" data-mh="mh-hotels">
-(updated...)
-                                </div>
-                                &nbsp;<a href="#" onClick="window.open('assets/aws_images/mission2_step1.png','_blank2');return false;">sample</a></span>
-                        </div>
-                        <!-- //.pr-3 -->
-                    </div>
-                    <!-- //.align-items-center -->
-                </div>
-
-                <div class="col-md-12 col-xl-4">
-                    <div class="align-items-center bg-white border border-gray-300 box-shadow justify-content-between p-4 position-relative rounded mb-3" data-mh="mh-hotels">
-                        <div class="pr-3">
-                            <span class="d-block font-alt font-w-600 text-medium text-red">STEP 5. Send Transactions </span>
-                            <span class="d-block font-alt letter-spacing-1 mt-2 text-gray-800 text-small">
-                                - terminal #2
-                                <div class="align-items-center bg-white  border border-gray-500 p-2" data-mh="mh-hotels">
-                                    > web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether') <br>
-                                    > personal.sendTransaction({from:eth.accounts[0],to:"0x3dda460444df2376e91ed8ea6635768c8901d247",value:web3.toWei(10,"ether")},"1")<br>
-
-                                    <br>
-                                    > txpool.status<br>
-                                    > txpool.content<br>
-                                    > txpool.content<br>
-
-                                </div>
-                                - mining (just leaderonly) <br><br>
-
-                                - terminal #2
-                                <div class="align-items-center bg-white  border border-gray-500 p-2" data-mh="mh-hotels">
-                                    > web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether')<br>
-
-                                    <br>
-                                    > txpool.status<br>
-                                    > txpool.content<br>
-                                    > txpool.content<br>
-
-                                </div>
-                                &nbsp;<a href="#" onClick="window.open('assets/aws_images/mission2_step3.png','_blank2');return false;">sample</a>
-                            </span>
-                        </div>
-                        <!-- //.pr-3 -->
-                    </div>
-                    <!-- //.align-items-center -->
-                </div>
-                <!-- //.col-md-6 -->
-
-
-        </div>
-        <!-- //.row -->
-
-
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //Section - Speakers End -->
 
     <!-- Section - Contact Start -->
     <section id="Mission3" class="bg-white">
