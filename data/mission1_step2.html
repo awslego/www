@@ -50,38 +50,27 @@
                 <th>Input </th>
             </tr>
             <tr>
-                <td>1. Load ‘myFirst.sol’</td>
-                <td></td>
+                <td>1. Load ‘myFirst.sol’<br>
+                    2. Compile 'myFirst.sol'<br>
+                    3. Connect Web3 Provider
+                </td>
+                <td><br><br>･ web3 provider : http://<font color="gray">[Public_IP]</font>:8545</td>
             </tr>
             <tr>
-                <td>2. Connect Geth</td>
-                <td>･ web3 provider : http://<font color="gray">[Public_IP]</font>:8545</td>
-            </tr>
-            <tr>
-                <td>3. Terminal #2 > Unlock Account</td>
-                <td>&nbsp;>&nbsp; personal.unlockAccount(eth.accounts[0]);</td>
-            </tr>
-            <tr>
-                <td>4. Deploy Contract</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>5. Terminal #2 > Mining</td>
-                <td>&nbsp;>&nbsp; miner.start(); <br>
+                <td>4. Terminal #2 > Unlock Account<br>
+                    5. Deploy Contract<br>
+                    6. Terminal #2 > Mining<br><br>
+                </td>
+                <td>&nbsp;>&nbsp; personal.unlockAccount(eth.accounts[0], '1', 0);<br>
+                <br>
+                    &nbsp;>&nbsp; miner.start(); <br>
                     &nbsp;>&nbsp; miner.stop();</td>
             </tr>
             <tr>
-                <td>6. Test Set</td>
-                <td>･ SetVal : "Jeff", 45</td>
-            </tr>
-            <tr>
-                <td>7. Terminal #2 > Mining</td>
-                <td>&nbsp;>&nbsp; miner.start(); <br>
+                <td>7. Call Contract Function (GetVal, SetVal)<br>
+                    8. Terminal #2 > Mining<br><br></td>
+                <td><br>&nbsp;>&nbsp; miner.start(); <br>
                     &nbsp;>&nbsp; miner.stop();</td>
-            </tr>
-            <tr>
-                <td>8. Test Get</td>
-                <td></td>
             </tr>
         </table>
     </div>

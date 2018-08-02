@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>myLottery</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>my First Smart Contract</title>
     <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <style>
+        body {
+            background-color:#F0F0F0;
+            padding: 2em;
+            font-family: 'Raleway','Source Sans Pro', 'Arial';
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+        }
+        label {
+            display:block;
+            margin-bottom:10px;
+        }
+        input {
+            padding:10px;
+            width: 50%;
+            margin-bottom: 1em;
+        }
+        button {
+            margin: 2em 0;
+            padding: 1em 4em;
+            display:block;
+            background-color: silver;
+        }
+
+        #output {
+            padding:1em;
+            background-color:#fff;
+            margin: 1em 0;
+        }
+
+        #loader {
+            width: 100px;
+            display:none;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -28,7 +64,7 @@
     if (typeof web3 !== 'undefined') {
         web3 = new Web3(web3.currentProvider);
     } else {
-        web3 = new Web3(new Web3.providers.HttpProvider("http://52.36.76.31:8545")); // please change to your own Web3_Provider_Endpoint.
+        web3 = new Web3(new Web3.providers.HttpProvider("http://54.185.99.119:8545")); // please change to your own Web3_Provider_Endpoint.
     }
     web3.eth.defaultAccount = web3.eth.accounts[0];
     console.log(web3.eth.defaultAccount);
@@ -89,7 +125,7 @@
         }
     ];
     var myContract = web3.eth.contract(ABI);
-    var myFirst = myContract.at('0x17320ba8abab4bca3cfac50014c651bda6bf8443'); // Please change to your own Contract_Account.
+    var myFirst = myContract.at('0x1fdc2867febc3f9259e8871078d5ce2501afeeeb'); // Please change to your own Contract_Account.
     console.log(myFirst);
 
     //-----------------------
