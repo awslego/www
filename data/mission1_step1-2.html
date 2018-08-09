@@ -32,18 +32,20 @@
          <p> 1. Terminal #2
             <div class="cmd">
             <font color="gray">[ec2-user@node1] ~/mission1> ./gethconsole</font><br>
-            >&nbsp; personal.newAccount();<br>
+
             >&nbsp; eth.accounts;<br>
             >&nbsp; eth.getBalance(eth.accounts[0]);<br>
             <br>
             >&nbsp; miner.start();<br>
             ....<br>
             >&nbsp; miner.stop();<br>
+
             <br>
             >&nbsp; eth.getBalance(eth.accounts[0]);<br>
-            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');<br>
+            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');   &nbsp;&nbsp;// (1Wei = 10^18 ETH) <br>
             >&nbsp; eth.blockNumber;<br>
-            </div>
+            </div><br>
+            &nbsp;<font color="#1e90ff">※ miner.start() : Wait until you see the successful message on Terminer #1</font></font><br>
          </p>
     </div>
 </div>
