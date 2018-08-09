@@ -55,3 +55,10 @@ img {
     padding: 5px;
     width: 80%;
 }
+
+.img2 {
+    border: 0px solid #ddd;
+    border-radius:0px;
+    padding: 0px;
+    width: 30%;
+}

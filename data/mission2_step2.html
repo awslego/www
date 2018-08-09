@@ -24,38 +24,30 @@
     </style>
 </head>
 
-
-<body>t
-<h1>Check the Private Network</h1>
+<body>
+<h1>Exercise Geth Console</h1>
 <div class="txt_area">
     <div class="txt">
         <div class="btn-red">note</div>
          <p> 1. Terminal #2
             <div class="cmd">
             <font color="gray">[ec2-user@node1] ~/mission2> ./gethconsole</font><br>
-            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether') ;<br>
-            >&nbsp; personal.sendTransaction({from:eth.accounts[0],to:"0x3dda460444df2376e91ed8ea6635768c8901d247",value:web3.toWei(10,"ether")},"1");<br>
+            >&nbsp; eth.blockNumber;<br>
+            >&nbsp; eth.accounts;<br>
             <br>
-            >&nbsp; txpool.status;<br>
-            >&nbsp; txpool.content;<br>
-            >&nbsp; txpool.inspect;<br>
+            >&nbsp; net.peerCount;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Peer's Count</font><br>
+            >&nbsp; admin.peers;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Peer's Info.</font><br>
+            <br>
+            >&nbsp; eth.getBlock(0);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Get Genesis Block</font><br>
+            >&nbsp; eth.getBlock(11);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Get Token Contract</font><br>
+            >&nbsp; eth.getBlock(15);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Get Crowdfunding Contract</font><br>
+            <br>
+            > eth.getTransaction(eth.getBlock(15).transactions[0]);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐  Get Transaction </font> <br>
+            > eth.getTransactionReceipt(eth.getBlock(15).transactions[0]);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐  Get TransactionReceipt </font>
             </div>
-         </p><br>
-         <p>2. mining in the private network<br><br>
-             &nbsp;<font color="red">※ Please do not turn on the miner. the instructor is the only minor in the private network.</font>
-         </p><br>
-         <p> 3. Terminal #2
-            <div class="cmd">
-                >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');
-            </div><br>
-         &nbsp;<font color="red">※ Once the instructor's mining is over, check your remaining balances.  </font>
-
-        </p>
+         </p>
     </div>
 </div>
-
-
-
 <div class="img_area">
     <img src="../assets/aws_images/mission2_step2.png" alt="Paris">
 </div>
