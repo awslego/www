@@ -11,63 +11,95 @@
 
     <link rel="icon" href="../assets/images/favicon.png">
 
-    <link href="../assets/css/aws_styles.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome CSS -->
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Include all css plugins (below), or include individual files as needed -->
+    <link href="../assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Theme CSS -->
+    <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/styles.css" rel="stylesheet" type="text/css">
     <style>
-        .cmd {
-            margin-left: 5px;
-            margin-right: 50px;
-            padding: 10px;
-            letter-spacing: 1.5px;
-            border: 1px solid;
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            border: 0px solid;
             line-height: 2em;
+            margin-bottom: 2em;
+        }
+        td {
+            border: 1px solid #dee2e6;
+            text-align: left;
+            padding: 2px;
+        }
+        th {
+            border: 1px solid #dee2e6;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #FFFFFF;
         }
     </style>
 </head>
 
+<body id="page-top" data-preloader-color="bg-red">
 
-<body>
-<h1>Send Transactions in the Private Network</h1>
-
-<div class="txt_area">
-
-    <div class="txt">
-        <div class="btn-red">Cheat Sheet</div>
-
-         <p> 1. Send Transaction each other <br><br>
-             &nbsp; Terminal #2 :
-            <div class="cmd">
-            <font color="gray">[ec2-user@node1] ~/mission2> ./gethconsole</font><br>
-            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether') ;<br>
-            >&nbsp; personal.sendTransaction({from:eth.accounts[0],to:"0x3dda460444df2376e91ed8ea6635768c8901d247",value:web3.toWei(10,"ether")},"1");<br>
-            <br>
-            >&nbsp; txpool.status;<br>
-            >&nbsp; txpool.content;<br>
-            >&nbsp; txpool.inspect;<br>
-            </div><br>
-
-            &nbsp;<font color="#1e90ff">※ In order to find out the different account addresses, click <a href="http://poc-bat-alb-161916887.us-east-1.elb.amazonaws.com:2082/admin/accounts" target="_blank5">here</a></font>
-        <div class="img_area">
-            <img src="../assets/aws_images/mission2_step3-2.png" class="img2">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 text-center mb-3 mt-3 mb-lg-5">
+            <h4 class="font-alt font-w-700 letter-spacing-2 m-0 title-medium">Send Transactions in the Private Network</h4>
+            <!--span class="bg-red d-block mt-4 mx-auto sep-line-medium-thick-long"></span-->
         </div>
-        </p>
-         <p>2. mining in the private network<br><br>
-             &nbsp;<font color="#1e90ff">※ Please do not turn on the miner. The instructor is the only minor in this private network! </font>
-         </p><br>
-         <p> 3. Once the instructor's mining is over, check your remaining balances.<br><br>
-             &nbsp; Terminal #2 :
-            <div class="cmd">
-                >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');
-            </div><br>
-
-        </p>
+        <!-- //.col-lg-6 -->
     </div>
-</div>
+    <!-- //.row -->
+    <center><img src="../assets/aws_images/mission2_step3-2.png" class="center">
+
+    <div class="row justify-content-center ">
+        <div class="col-lg-12 col-xl-12 mb-5 text-center text-lg-left ml-5">
+            <p class="font-alt font-w-600 text-large text-uppercase text-red">Cheat Sheet </p>
+            <p class="text-medium">
+
+                <b>1. (Terminal #2) Send Transaction each other </b><br>
+                >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether') ;<br>
+                >&nbsp; personal.sendTransaction({from:eth.accounts[0],to:"0x3dda460444df2376e91ed8ea6635768c8901d247",value:web3.toWei(10,"ether")},"1");<br>
+                <br>
+                >&nbsp; txpool.status;<br>
+                >&nbsp; txpool.content;<br>
+                >&nbsp; txpool.inspect;<br>
 
 
+               <br>
+            &nbsp;<font color="#1e90ff">※ In order to find out the different account addresses, click <a href="http://poc-bat-alb-161916887.us-east-1.elb.amazonaws.com:2082/admin/accounts" target="_blank5">here</a></font><br><br>
 
-<div class="img_area">
-    <img src="../assets/aws_images/mission2_step3.png" alt="Paris">
+                <b>2. mining in the private network</b><br>
+                &nbsp;<font color="#1e90ff">※ Please do not turn on the miner. The instructor is the only minor in this private network! </font>
+            <br><br>
+                <b>3. (Terminal #2) Once the instructor's mining is over, check your remaining balances.</b><br>
+                >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ my balance</font><br>
+                >&nbsp; web3.fromWei(eth.getBalance(0x3dda460444df2376e91ed8ea6635768c8901d247, 'ether');&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Instructor's balance</font><br>
+             <br>
+
+
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-xl-12 text-center">
+        <div class="fig-1 rounded">
+            <img src="../assets/aws_images/mission2_step3.png" width=80%  alt="" class="img-fluid " />
+        </div>
+    </div>
+
 </div>
 
 </body>
 </html>
+
+
+
