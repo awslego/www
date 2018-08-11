@@ -34,7 +34,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-6 text-center mb-3 mt-3 mb-lg-5">
             <h4 class="font-alt font-w-700 letter-spacing-2 m-0 title-medium">
-                Practice Mining and Create a new account</h4>
+                Check your Local network</h4>
             <!--span class="bg-red d-block mt-4 mx-auto sep-line-medium-thick-long"></span-->
         </div>
         <!-- //.col-lg-6 -->
@@ -46,21 +46,30 @@
             <p class="font-alt font-w-600 text-large text-uppercase text-red">Cheat Sheet </p>
             <p class="text-medium">
 
-            <p class="border-2"> <b>1. (Terminal #2) Check your Local network </b><br>
-
-            >&nbsp; eth.accounts;  &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // We have already created one account for quick mining. Check it out</font><br>
+            <p class="border-2">
+                <b>1. (Terminal #2) Check your Local network </b><br>
+                >&nbsp; eth.accounts;  &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // We have already created one account for quick mining. Check it out</font><br>
                 >&nbsp; eth.getBalance(eth.accounts[0]);<br>
                 <br>
                 >&nbsp; miner.start(); &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // Wait until you see the successful message on Terminer #1</font><br>
-                ...<br>
                 >&nbsp; miner.stop();<br>
-
                 <br>
                 >&nbsp; eth.getBalance(eth.accounts[0]);<br>
-            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');   &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // Change Wei to ETH (1Wei = 10^18 ETH)</font> <br>
-                >&nbsp; eth.blockNumber;<br>
-            </p>
+                >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');   &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // Change Wei to ETH (1Wei = 10^18 ETH)</font> <br>
+                >&nbsp; eth.blockNumber;<br></br>
 
+                <b>2. (Terminal #2) Create an account</b><br>
+                >&nbsp; personal.newAccount('1');  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // '1' is this account's passphrase</font><br>
+                >&nbsp; eth.accounts;<br><br>
+
+                <b> &nbsp; &nbsp;  (Terminal #3) Remove an account</b><br>
+                &nbsp; cd ~/mission1/local-data;  ls -al <br>
+                &nbsp; cd keystore;  ls -al <br>
+                &nbsp; rm <font class="text-gray-400">[2nd file]</font><br><br>
+
+                <b>3. (Terminal #3) Check your final account</b><br>
+                >&nbsp; eth.accounts;<br>
+             </p>
         </div>
     </div>
 
