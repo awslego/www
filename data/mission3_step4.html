@@ -50,10 +50,14 @@
                     <th>Blockchain transaction Monitoring and Analytics based on Graph DB</th>
                 </tr>
                 <tr>
-                    <td>- Increasing the need to monitor block chain illegal transactions <br>
-                        - Real-time transaction analytics and alerts for cryptocurrencies.<br>
-                        - Tracking cryptocurrency transactions for links to potentially suspicious activity<br>
-                        - AWS Services : Neptune Graph DB
+                    <td>- if you represent blockchain transactions in graph, <br>
+                        &nbsp;&nbsp;･ The first vertex is the sender account, the second vertex is the receiver account,<br>
+                        &nbsp;&nbsp;･ The middle edge is the transaction and has the transferred value as the property of edge.
+                        - AWS Services : Neptune Graph DB<br><br>
+                        - If you apply this to the ethereum Main Net,<br>
+                        &nbsp;&nbsp;･ cryptocurrency exchange accounts : have the most in-out transactions<br>
+                        &nbsp;&nbsp;･ fraud accounts : show abnormal patterns <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;(ex. Ransomware shows the same amount is transferred from multiple accounts)
                 </tr>
                 <tr>
                     <td> <br>► neptune browser : <a href="http://poc-bat-alb-161916887.us-east-1.elb.amazonaws.com:2081/graphexp.html" target="_blank4">open</a> &nbsp;(<a href="https://github.com/bricaud/graphexp" target="_blank4">graphexp</a>)
