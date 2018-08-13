@@ -26,6 +26,6 @@ pragma solidity ^0.4.0;
          //------------------------------------
          // 3. please enter the trigger-event code
          //------------------------------------
-         email First(name, age);
+         emit First(name, age);
      }
  }
