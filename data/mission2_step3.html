@@ -79,15 +79,11 @@
                 <b>2. mining in the private network</b><br>
                 &nbsp;<font color="#1e90ff">※ Please do not turn on the miner. The instructor is the only minor in this private network! </font>
                 <br><br>
-                <b>(Terminal #2) Check transactions after mining </b><br>
+                <b>3. (Terminal #2) Once the instructor's mining is over, check your remaining balances.</b><br>
                 >&nbsp; txpool.status;<br>
                 >&nbsp; txpool.content;<br>
                 >&nbsp; txpool.inspect;<br><br>
 
-
-
-
-                <b>3. (Terminal #2) Once the instructor's mining is over, check your remaining balances.</b><br>
                 >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[0]), 'ether');&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ my balance</font><br>
                 >&nbsp; web3.fromWei(eth.getBalance(0x3dda460444df2376e91ed8ea6635768c8901d247, 'ether');&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">⇐ Instructor's balance</font><br>
                 <br>
