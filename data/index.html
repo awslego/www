@@ -64,7 +64,7 @@
     if (typeof web3 !== 'undefined') {
         web3 = new Web3(web3.currentProvider);
     } else {
-        web3 = new Web3(new Web3.providers.HttpProvider("http://54.185.99.119:8545")); // please change to your own Web3_Provider_Endpoint.
+        web3 = new Web3(new Web3.providers.HttpProvider("http://34.211.190.247:8545")); // please change to your own Web3_Provider_Endpoint.
     }
     web3.eth.defaultAccount = web3.eth.accounts[0];
     console.log(web3.eth.defaultAccount);
@@ -125,7 +125,7 @@
         }
     ];
     var myContract = web3.eth.contract(ABI);
-    var myFirst = myContract.at('0x1fdc2867febc3f9259e8871078d5ce2501afeeeb'); // Please change to your own Contract_Account.
+    var myFirst = myContract.at('0xe87fef48b4d0befe4340e07f570e2e306f4e0dda'); // Please change to your own Contract_Account.
     console.log(myFirst);
 
     //-----------------------
