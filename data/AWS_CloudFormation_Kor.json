@@ -1,0 +1,84 @@
+{
+  "Parameters": {
+    "KeyName": {
+      "Description": "The EC2 Key Pair to allow SSH access to geth node",
+      "Type": "AWS::EC2::KeyPair::KeyName"
+    },
+    "InstanceType" : {
+      "Description" : "Ethereum Node EC2 instance type",
+      "Type" : "String",
+      "Default" : "t2.medium",
+      "ConstraintDescription" : "must be a valid EC2 instance type."
+    }
+  },
+
+  "Mappings" : {
+    "RegionMap" : {
+      "us-west-2" : { "64" : "ami-0b5d75774228801b2" },
+      "ap-northeast-2" : { "64" : "ami-0601889d94c10352b" }
+    }
+  },
+
+  "Resources": {
+    "Ec2Instance": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId" : { "Fn::FindInMap" : [ "RegionMap", { "Ref" : "AWS::Region" }, "64"]},
+        "InstanceType" : { "Ref" : "InstanceType" },
+        "SecurityGroups": [
+          {
+            "Ref": "InstanceSecurityGroup"
+          }
+        ],
+        "KeyName": {
+          "Ref": "KeyName"
+        }
+      }
+    },
+
+    "InstanceSecurityGroup": {
+      "Type": "AWS::EC2::SecurityGroup",
+      "Properties": {
+        "GroupDescription": "Enable SSH access via port 22",
+        "SecurityGroupIngress": [
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "22",
+            "ToPort": "22",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "30303",
+            "ToPort": "30303",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "8545",
+            "ToPort": "8545",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "8080",
+            "ToPort": "8080",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "8081",
+            "ToPort": "8081",
+            "CidrIp": "0.0.0.0/0"
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": "3000",
+            "ToPort": "3000",
+            "CidrIp": "0.0.0.0/0"
+          }
+        ]
+      }
+    }
+  }
+}

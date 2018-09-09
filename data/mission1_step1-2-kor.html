@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AWSLEGO</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="icon" href="../assets/images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome CSS -->
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Include all css plugins (below), or include individual files as needed -->
+    <link href="../assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Theme CSS -->
+    <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body id="page-top" data-preloader-color="bg-red">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 text-center mb-3 mt-3 mb-lg-5">
+            <h4 class="font-alt font-w-700 letter-spacing-2 m-0 title-medium">
+               Geth 실습하기</h4>
+            <!--span class="bg-red d-block mt-4 mx-auto sep-line-medium-thick-long"></span-->
+        </div>
+        <!-- //.col-lg-6 -->
+    </div>
+    <!-- //.row -->
+    <div class="row justify-content-center ">
+        <div class="col-lg-12 col-xl-12 mb-1 text-center text-lg-left">
+            <p class="font-alt font-w-600 text-large text-uppercase text-red">Cheat Sheet (1/2) </p>
+            <p class="text-medium">
+                <p><font color="gray">SSH로 터미널 두개에 접속하여 각각 아래와 같이 입력하여 Geth 콘솔모드로 들어갑니다.</font></p>
+                <b>1. cd mission1; ./gethclient </b> </br>
+                <b>2. cd mission1; ./gethconsole</b>
+            </p>
+        </div>
+        <div class="col-lg-12 col-xl-12 text-center">
+            <div class="fig-1 rounded">
+                <img src="../assets/aws_images/mission1_step1-2-kor-0.png" width=80%  alt="" class="img-fluid " />
+            </div>
+        </div>
+    </div>
+    </br></br>
+
+    <div class="row justify-content-center ">
+        <div class="col-lg-12 col-xl-12 mb-1 text-center text-lg-left">
+            <p class="font-alt font-w-600 text-large text-uppercase text-red">Cheat Sheet (2/2)</p>
+            <p class="text-medium">
+            <p class="border-2">
+                <p><font color="gray">Account, Transaction, Block을 Geth Command를 통해 알아봅시다. </font></p>
+                <b>1. Account </b>&nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">※ 터미널2에서 실행합니다.</font>
+                </br>
+                >&nbsp; eth.accounts;  &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // We have already created one account for quick mining. Check it out</font><br>
+                >&nbsp; personal.newAccount('1');  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // '1' is this account's passphrase</font><br>
+                >&nbsp; eth.accounts;<br>
+                >&nbsp; eth.getBalance(eth.accounts[1]);<br>
+            </p>
+        </div>
+        <div class="col-lg-12 col-xl-12 text-center mb-5">
+            <div class="fig-1 rounded">
+                <img src="../assets/aws_images/mission1_step1-2-kor-1.png" width=80%  alt="" class="img-fluid " />
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-xl-12 mb-1 text-center text-lg-left ml-1">
+            <b>2. Transaction </b> &nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">※ 터미널2에서 실행합니다.</font>
+            </br>
+            >&nbsp; txpool.status;<br>
+            >&nbsp; personal.sendTransaction({from:eth.accounts[0],to:eth.accounts[1],value:web3.toWei(10,"ether"), gas:30000},"1");<br>
+            </br>
+            >&nbsp; txpool.status;<br>
+            >&nbsp; txpool.content;<br>
+            >&nbsp; txpool.inspect;<br>
+            </br>
+            >&nbsp; miner.start(); &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // Wait until you see the successful message on Terminer #1</font><br>
+            >&nbsp; miner.stop();<br>
+            </br>
+            >&nbsp; txpool.status;<br>
+            >&nbsp; eth.getTransaction("0x6e438b4b3703b78dcb733a4fc64b43e917e4df943f4d6659379ce8755ead0964")</br>
+            >&nbsp; eth.getTransactionReceipt("0x6e438b4b3703b78dcb733a4fc64b43e917e4df943f4d6659379ce8755ead0964")</br></br>
+
+            >&nbsp; eth.getBalance(eth.accounts[1]);<br>
+            >&nbsp; web3.fromWei(eth.getBalance(eth.accounts[1]), 'ether');   &nbsp;&nbsp;&nbsp;&nbsp;<font class="text-gray-400"> // Change Wei to ETH (1Wei = 10^18 ETH)</font> <br>
+            <br>
+        </div>
+        <div class="col-lg-12 col-xl-12 text-center mb-5">
+            <div class="fig-1 rounded">
+                <img src="../assets/aws_images/mission1_step1-2-kor-2.png" width=80%  alt="" class="img-fluid " />
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-xl-12 mb-1 text-center text-lg-left ml-1">
+            <b>3. Block </b> &nbsp;&nbsp;&nbsp;&nbsp;<font color="gray">※ 터미널2에서 실행합니다.</font>
+            </br>
+            >&nbsp; eth.blockNumber;</br>
+            >&nbsp; eth.getBlock(0);</br>
+            >&nbsp; eth.getBlock(57);
+        </div>
+        <div class="col-lg-12 col-xl-12 text-center">
+            <div class="fig-1 rounded">
+                <img src="../assets/aws_images/mission1_step1-2-kor-3.png" width=80%  alt="" class="img-fluid " />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
