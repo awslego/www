@@ -7,7 +7,7 @@
     "InstanceType" : {
       "Description" : "Ethereum Node EC2 instance type",
       "Type" : "String",
-      "Default" : "t2.medium",
+      "Default" : "t2.large",
       "ConstraintDescription" : "must be a valid EC2 instance type."
     }
   },
