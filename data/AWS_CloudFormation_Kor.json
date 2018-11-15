@@ -1,7 +1,7 @@
 {
   "Parameters": {
     "KeyName": {
-      "Description": "The EC2 Key Pair to allow SSH access to geth node",
+      "Description": "The EC2 Key Pair to allow SSH access to geth node!",
       "Type": "AWS::EC2::KeyPair::KeyName"
     },
     "InstanceType" : {
