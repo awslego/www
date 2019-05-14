@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6b5dfbb-2981-40e9-9680-a87206556088" name="Default" comment="이미지 수정">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission3_step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission3_step1.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/mission1_step1-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lecture0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation_kor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-508" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/mission3_step1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="80" column="78" selection-start-line="80" selection-start-column="78" selection-end-line="80" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/aws_images/mission3_step1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/mission1_step1-1-kor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/mission1_step1-2-kor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation_KOR.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>step2.html</find>
+      <find>1-2</find>
+      <find>remix</find>
+      <find>sshd</find>
+      <find>border</find>
+      <find>&quot;assets/</find>
+      <find>until</find>
+      <find>mission ob</find>
+      <find>more</find>
+      <find>mission</find>
+      <find>왜 이걸 하는지? 왜 마이닝</find>
+      <find>overview</find>
+      <find>deploy</find>
+      <find>view</find>
+      <find>T</find>
+      <find>http://poc-graphexp-clb-1935929649.us-east-1.elb.amazonaws.com:2081/graphexp.html</find>
+      <find>2081</find>
+      <find>2082</find>
+      <find>terminal #</find>
+      <find>mission2</find>
+      <find>steps</find>
+      <find>han</find>
+      <find>운영하기</find>
+      <find>에서</find>
+      <find>시하</find>
+      <find>시작</find>
+      <find>설정</find>
+      <find>geth 실</find>
+      <find>SSH</find>
+      <find>시작하기</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>text-blue</replace>
+      <replace>bg-blue</replace>
+      <replace>view</replace>
+      <replace>&quot;../assets/</replace>
+      <replace>class=&quot;cta-btn&quot;&gt;instruction&lt;/a&gt;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/setup.html" />
+        <option value="$PROJECT_DIR$/AWS_CloudFormation.json" />
+        <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/data/mission1_step1.html" />
+        <option value="$PROJECT_DIR$/AWSLEGO_files/styles.css" />
+        <option value="$PROJECT_DIR$/data/mission1_step2-2.html" />
+        <option value="$PROJECT_DIR$/data/mission2_step2-2.html" />
+        <option value="$PROJECT_DIR$/index_bak.html" />
+        <option value="$PROJECT_DIR$/a.json" />
+        <option value="$PROJECT_DIR$/1.json" />
+        <option value="$PROJECT_DIR$/assets/css/aws_styles.css" />
+        <option value="$PROJECT_DIR$/data/mission0_step2.html" />
+        <option value="$PROJECT_DIR$/data/mission2_step1.html" />
+        <option value="$PROJECT_DIR$/data/mission3_step2.html" />
+        <option value="$PROJECT_DIR$/data/mission3_step3.html" />
+        <option value="$PROJECT_DIR$/data/mission3_step5.html" />
+        <option value="$PROJECT_DIR$/data/mission1_step3.html" />
+        <option value="$PROJECT_DIR$/data/myFirst.sol" />
+        <option value="$PROJECT_DIR$/data/mission0_cloudFormation.html" />
+        <option value="$PROJECT_DIR$/data/mission2_step2.html" />
+        <option value="$PROJECT_DIR$/data/AWS_CloudFormation.json" />
+        <option value="$PROJECT_DIR$/data/mission3_step4.html" />
+        <option value="$PROJECT_DIR$/data/mission2_step3.html" />
+        <option value="$PROJECT_DIR$/data/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/data/mission1_step1-2.html" />
+        <option value="$PROJECT_DIR$/data/mission1_step2.html" />
+        <option value="$PROJECT_DIR$/data/mission1_step1-1.html" />
+        <option value="$PROJECT_DIR$/lecture1.html" />
+        <option value="$PROJECT_DIR$/data/AWS_CloudFormation_Kor2.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lecture0.html" />
+        <option value="$PROJECT_DIR$/data/mission1_step1-2-kor.html" />
+        <option value="$PROJECT_DIR$/data/mission1_step1-1-kor.html" />
+        <option value="$PROJECT_DIR$/data/AWS_CloudFormation_Kor.json" />
+        <option value="$PROJECT_DIR$/data/mission0_cloudFormation_kor.html" />
+        <option value="$PROJECT_DIR$/data/mission3_step1.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="918" />
+    <option name="y" value="315" />
+    <option name="width" value="1568" />
+    <option name="height" value="1001" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="aws_images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lecture1.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/www/lecture1.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6b5dfbb-2981-40e9-9680-a87206556088" name="Default" comment="" />
+      <created>1532416311545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532416311545</updated>
+      <workItem from="1532416314818" duration="37639000" />
+      <workItem from="1532497100022" duration="3000" />
+      <workItem from="1532497109430" duration="1330000" />
+      <workItem from="1532508747426" duration="32000" />
+      <workItem from="1532743513488" duration="2442000" />
+      <workItem from="1532782489858" duration="158000" />
+      <workItem from="1532782653343" duration="25079000" />
+      <workItem from="1532872544642" duration="721000" />
+      <workItem from="1532873303651" duration="37491000" />
+      <workItem from="1533239566818" duration="6845000" />
+      <workItem from="1533375478194" duration="47216000" />
+      <workItem from="1533825312208" duration="12169000" />
+      <workItem from="1533909718827" duration="38749000" />
+      <workItem from="1534213024266" duration="2918000" />
+      <workItem from="1534235273647" duration="1047000" />
+      <workItem from="1534298408180" duration="4032000" />
+      <workItem from="1536319359631" duration="29900000" />
+      <workItem from="1536515270272" duration="441000" />
+      <workItem from="1536567745834" duration="1152000" />
+      <workItem from="1536575169311" duration="7627000" />
+      <workItem from="1536738658119" duration="1665000" />
+      <workItem from="1540352368225" duration="126000" />
+      <workItem from="1540352621330" duration="46000" />
+      <workItem from="1541641891698" duration="7732000" />
+      <workItem from="1542247219943" duration="1185000" />
+      <workItem from="1542529304975" duration="172000" />
+      <workItem from="1557725195494" duration="930000" />
+    </task>
+    <task id="LOCAL-00065" summary="init">
+      <created>1534128292453</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1534128292453</updated>
+    </task>
+    <task id="LOCAL-00066" summary="init2">
+      <created>1534137552425</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1534137552425</updated>
+    </task>
+    <task id="LOCAL-00067" summary="init2">
+      <created>1534138896206</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1534138896206</updated>
+    </task>
+    <task id="LOCAL-00068" summary="init2">
+      <created>1534139203039</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1534139203039</updated>
+    </task>
+    <task id="LOCAL-00069" summary="init2">
+      <created>1534141691473</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1534141691473</updated>
+    </task>
+    <task id="LOCAL-00070" summary="init2">
+      <created>1534142775126</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1534142775126</updated>
+    </task>
+    <task id="LOCAL-00071" summary="init2">
+      <created>1534143578161</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1534143578161</updated>
+    </task>
+    <task id="LOCAL-00072" summary="init2">
+      <created>1534144452123</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1534144452123</updated>
+    </task>
+    <task id="LOCAL-00073" summary="init2">
+      <created>1534144790472</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1534144790473</updated>
+    </task>
+    <task id="LOCAL-00074" summary="init2">
+      <created>1534144855121</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1534144855121</updated>
+    </task>
+    <task id="LOCAL-00075" summary="init2">
+      <created>1534146950949</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1534146950949</updated>
+    </task>
+    <task id="LOCAL-00076" summary="init2">
+      <created>1534147305632</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1534147305632</updated>
+    </task>
+    <task id="LOCAL-00077" summary="init2">
+      <created>1534147355010</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1534147355010</updated>
+    </task>
+    <task id="LOCAL-00078" summary="init2">
+      <created>1534147892477</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1534147892477</updated>
+    </task>
+    <task id="LOCAL-00079" summary="init2">
+      <created>1534148147615</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1534148147615</updated>
+    </task>
+    <task id="LOCAL-00080" summary="init2">
+      <created>1534210487072</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1534210487072</updated>
+    </task>
+    <task id="LOCAL-00081" summary="init2">
+      <created>1534224682860</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1534224682860</updated>
+    </task>
+    <task id="LOCAL-00082" summary="init2">
+      <created>1534225366218</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1534225366218</updated>
+    </task>
+    <task id="LOCAL-00083" summary="init2">
+      <created>1534235368524</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1534235368525</updated>
+    </task>
+    <task id="LOCAL-00084" summary="init2">
+      <created>1534235489494</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1534235489494</updated>
+    </task>
+    <task id="LOCAL-00085" summary="init2">
+      <created>1534298902379</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1534298902380</updated>
+    </task>
+    <task id="LOCAL-00086" summary="init2">
+      <created>1534302233183</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1534302233183</updated>
+    </task>
+    <task id="LOCAL-00087" summary="init2">
+      <created>1534304646016</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1534304646016</updated>
+    </task>
+    <task id="LOCAL-00088" summary="added dApp pullstack development">
+      <created>1536497333779</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1536497333780</updated>
+    </task>
+    <task id="LOCAL-00089" summary="added pdf">
+      <created>1536502813615</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1536502813615</updated>
+    </task>
+    <task id="LOCAL-00090" summary="added pdf">
+      <created>1536502873011</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1536502873011</updated>
+    </task>
+    <task id="LOCAL-00091" summary="added pdf">
+      <created>1536503147604</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1536503147604</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added pdf">
+      <created>1536503305136</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1536503305136</updated>
+    </task>
+    <task id="LOCAL-00093" summary="added pdf">
+      <created>1536503673111</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1536503673111</updated>
+    </task>
+    <task id="LOCAL-00094" summary="added pdf">
+      <created>1536503718669</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1536503718669</updated>
+    </task>
+    <task id="LOCAL-00095" summary="added pdf">
+      <created>1536503758249</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1536503758249</updated>
+    </task>
+    <task id="LOCAL-00096" summary="added pdf">
+      <created>1536504719402</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1536504719402</updated>
+    </task>
+    <task id="LOCAL-00097" summary="added pdf">
+      <created>1536504754645</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1536504754645</updated>
+    </task>
+    <task id="LOCAL-00098" summary="added pdf">
+      <created>1536515632108</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1536515632109</updated>
+    </task>
+    <task id="LOCAL-00099" summary="added pdf">
+      <created>1536567814184</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1536567814184</updated>
+    </task>
+    <task id="LOCAL-00100" summary="added pdf">
+      <created>1536568297686</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1536568297686</updated>
+    </task>
+    <task id="LOCAL-00101" summary="added pdf">
+      <created>1536634579006</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1536634579006</updated>
+    </task>
+    <task id="LOCAL-00102" summary="added pdf">
+      <created>1536738991297</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1536738991297</updated>
+    </task>
+    <task id="LOCAL-00103" summary="added pdf">
+      <created>1536739748253</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1536739748253</updated>
+    </task>
+    <task id="LOCAL-00104" summary="added pdf">
+      <created>1540352494210</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1540352494210</updated>
+    </task>
+    <task id="LOCAL-00105" summary="added pdf">
+      <created>1540352658712</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1540352658712</updated>
+    </task>
+    <task id="LOCAL-00106" summary="added pdf">
+      <created>1542154951514</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1542154951515</updated>
+    </task>
+    <task id="LOCAL-00107" summary="added pdf">
+      <created>1542169996479</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1542169996480</updated>
+    </task>
+    <task id="LOCAL-00108" summary="added pdf">
+      <created>1542220820334</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1542220820334</updated>
+    </task>
+    <task id="LOCAL-00109" summary="ami 수정">
+      <created>1542247409506</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1542247409506</updated>
+    </task>
+    <task id="LOCAL-00110" summary="ami 수정">
+      <created>1542247614850</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1542247614850</updated>
+    </task>
+    <task id="LOCAL-00111" summary="ami 수정">
+      <created>1542247687727</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1542247687727</updated>
+    </task>
+    <task id="LOCAL-00112" summary="ami 수정">
+      <created>1542248013506</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1542248013506</updated>
+    </task>
+    <task id="LOCAL-00113" summary="ami 수정">
+      <created>1542248048491</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1542248048491</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="268847000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="918" y="315" width="1568" height="1001" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82051283" visible="true" weight="0.25294888" />
+      <window_info id="Learn" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Structure" order="5" sideWeight="0.17948718" side_tool="true" weight="0.17160213" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49285033" weight="0.11347517" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49279162" visible="true" weight="0.19471948" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5072084" side_tool="true" weight="0.13311331" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <MESSAGE value="init2" />
+    <MESSAGE value="added dApp pullstack development" />
+    <MESSAGE value="added pdf" />
+    <MESSAGE value="ami 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="ami 수정" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission2_step3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission1_step1-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" selection-start-line="75" selection-end-line="79" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission1_step2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="95" column="89" selection-start-line="95" selection-start-column="89" selection-end-line="95" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="296" column="27" selection-start-line="296" selection-start-column="27" selection-end-line="296" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation_Kor2.json" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission1_step1-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lecture0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission1_step1-1-kor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission1_step1-2-kor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation_KOR.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation_kor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/aws_images/mission3_step1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/mission3_step1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="80" column="78" selection-start-line="80" selection-start-column="78" selection-end-line="80" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
