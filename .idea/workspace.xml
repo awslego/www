@@ -1,12 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6b5dfbb-2981-40e9-9680-a87206556088" name="Default" comment="이미지 수정">
+    <list default="true" id="e6b5dfbb-2981-40e9-9680-a87206556088" name="Default" comment="color 수정">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/7P1ywss64JTsLayrH9qfn128mKx01bntmq73az0sJic.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/7P1ywss64JTsLayrH9qfn128mKx01bntmq73az0sJic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/ad_status.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/ad_status.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/annotations_module.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/annotations_module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/fig_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/fig_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/fig_01_vr.png" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/fig_01_vr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/fig_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/fig_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/fig_02_vr.png" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/fig_02_vr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/iframe_api" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/iframe_api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/isotope.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.countTo.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.countTo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.inview.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.inview.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.matchHeight.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.matchHeight.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.mb.YTPlayer.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.mb.YTPlayer.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.mb.YTPlayer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.mb.YTPlayer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/logo-text-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/logo-text-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/logo-text-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/logo-text-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/pace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/pace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/saved_resource.html" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/saved_resource.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/www-embed-player.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/www-embed-player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/www-player-2x-webp-vflP5_VzI.css" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/www-player-2x-webp-vflP5_VzI.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWSLEGO_files/www-widgetapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/AWSLEGO_files/www-widgetapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/Picture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/Picture1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/cloudformation_create-1-kor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/cloudformation_create-1-kor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/cloudformation_create-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/cloudformation_create-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/cloudformation_create.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/cloudformation_create.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/cloudformation_create_kor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/cloudformation_create_kor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-0.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2-kor-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-Window-kor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-Window-kor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1-kor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1-kor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step2-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step2-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step2-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step2-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step2-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step2-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step2-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step2-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step3-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step3-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission1_step3-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission1_step3-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission2_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission2_step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission2_step2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission2_step2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission2_step3-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission2_step3-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission2_step3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission2_step3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_app1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_app1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_app2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_app2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_app3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_app3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_app4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_app4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_app5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_app5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step3-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step3-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step4-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step4-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/aws_images/mission3_step5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/aws_images/mission3_step5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/aws_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/aws_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/font-en.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/font-en.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg-hero3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-hero3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fig_01_kor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fig_01_kor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fig_01_vr_kor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fig_01_vr_kor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fig_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fig_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fig_03_vr.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/fig_03_vr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/kakao.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/kakao.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/level.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/level.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/level_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/level_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-text-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo-text-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo-text-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo-text-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/send_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact/send_mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/send_mail_ticket.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact/send_mail_ticket.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AWS_CloudFormation.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/AWS_CloudFormation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/AWS_CloudFormation_KOR.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/AWS_CloudFormation_KOR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Account_download.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/Account_download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/HOL-EC2-BASIC-Linux-SSH.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/HOL-EC2-BASIC-Linux-SSH.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/HOL-EC2-BASIC-Linux.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/HOL-EC2-BASIC-Linux.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/HOL_BLOCKCHAIN_TEMPLATE.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/HOL_BLOCKCHAIN_TEMPLATE.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/01_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/01_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/02_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/02_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/03_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/03_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/04_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/04_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/05_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/05_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/06_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/06_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/07_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/07_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/08_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/08_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/09_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/09_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/10_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/10_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/11_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/11_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/12_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/12_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/13_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/13_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/14_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/14_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/15_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/15_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/16_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/16_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/17_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/17_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/18_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/18_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/19_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/19_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/20_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/20_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/21_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/21_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/22_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/22_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/23_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/23_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/24_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/24_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/25_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/25_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/26_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/26_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/27_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/27_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/28_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/28_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/29_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/29_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/30_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/30_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/31_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/31_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/32_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/32_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/33_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/33_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/34_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/34_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/35_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/35_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/36_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/36_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/37_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/37_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/38_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/38_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/39_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/39_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/40_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/40_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/41_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/41_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/42_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/42_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/43_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/43_keystore.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/keystore/45_keystore.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/keystore/45_keystore.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mission0_cloudFormation.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission0_cloudFormation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission0_cloudFormation_kor.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission0_cloudFormation_kor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission1_step1-1-kor.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission1_step1-1-kor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission1_step1-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission1_step1-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission1_step1-2-kor.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission1_step1-2-kor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission1_step1-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission1_step1-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission1_step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission1_step2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission1_step3.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission1_step3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission2_step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission2_step1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission2_step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission2_step2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission2_step3.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission2_step3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission3_step1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission3_step1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission3_step2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission3_step2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission3_step3.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission3_step3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission3_step4.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission3_step4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mission3_step5.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/mission3_step5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/myFirst.sol" beforeDir="false" afterPath="$PROJECT_DIR$/data/myFirst.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teacher_account_pw_0/UTC--2017-12-20T14-11-09.343555786Z--4906e16b0875b1988b8d3d95ec731d05f9430646" beforeDir="false" afterPath="$PROJECT_DIR$/data/teacher_account_pw_0/UTC--2017-12-20T14-11-09.343555786Z--4906e16b0875b1988b8d3d95ec731d05f9430646" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_bak.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_bak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www.iml" beforeDir="false" afterPath="$PROJECT_DIR$/www.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,89 +175,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/mission1_step1-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lecture0.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation_kor.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/mission3_step1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="26" column="123" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/aws_images/mission3_step1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/mission1_step1-1-kor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/mission1_step1-2-kor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -145,85 +224,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/setup.html" />
-        <option value="$PROJECT_DIR$/AWS_CloudFormation.json" />
-        <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/data/mission1_step1.html" />
-        <option value="$PROJECT_DIR$/AWSLEGO_files/styles.css" />
-        <option value="$PROJECT_DIR$/data/mission1_step2-2.html" />
-        <option value="$PROJECT_DIR$/data/mission2_step2-2.html" />
-        <option value="$PROJECT_DIR$/index_bak.html" />
-        <option value="$PROJECT_DIR$/a.json" />
-        <option value="$PROJECT_DIR$/1.json" />
-        <option value="$PROJECT_DIR$/assets/css/aws_styles.css" />
-        <option value="$PROJECT_DIR$/data/mission0_step2.html" />
-        <option value="$PROJECT_DIR$/data/mission2_step1.html" />
-        <option value="$PROJECT_DIR$/data/mission3_step2.html" />
-        <option value="$PROJECT_DIR$/data/mission3_step3.html" />
-        <option value="$PROJECT_DIR$/data/mission3_step5.html" />
-        <option value="$PROJECT_DIR$/data/mission1_step3.html" />
-        <option value="$PROJECT_DIR$/data/myFirst.sol" />
-        <option value="$PROJECT_DIR$/data/mission2_step2.html" />
-        <option value="$PROJECT_DIR$/data/mission3_step4.html" />
-        <option value="$PROJECT_DIR$/data/mission2_step3.html" />
-        <option value="$PROJECT_DIR$/data/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/styles.css" />
-        <option value="$PROJECT_DIR$/data/mission1_step1-2.html" />
-        <option value="$PROJECT_DIR$/data/mission1_step2.html" />
-        <option value="$PROJECT_DIR$/data/mission1_step1-1.html" />
-        <option value="$PROJECT_DIR$/lecture1.html" />
-        <option value="$PROJECT_DIR$/data/AWS_CloudFormation_Kor2.json" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lecture0.html" />
-        <option value="$PROJECT_DIR$/data/mission1_step1-2-kor.html" />
-        <option value="$PROJECT_DIR$/data/mission1_step1-1-kor.html" />
-        <option value="$PROJECT_DIR$/data/AWS_CloudFormation_Kor.json" />
-        <option value="$PROJECT_DIR$/data/mission0_cloudFormation_kor.html" />
-        <option value="$PROJECT_DIR$/data/mission3_step1.html" />
-        <option value="$PROJECT_DIR$/data/mission0_cloudFormation.html" />
-        <option value="$PROJECT_DIR$/data/AWS_CloudFormation.json" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="918" />
-    <option name="y" value="315" />
-    <option name="width" value="1568" />
-    <option name="height" value="1001" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PegENUjCYEHMm2smRSiEAYIsdo" />
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -327,21 +328,8 @@
       <workItem from="1542247219943" duration="1185000" />
       <workItem from="1542529304975" duration="172000" />
       <workItem from="1557725195494" duration="1112000" />
-      <workItem from="1557800562510" duration="587000" />
-    </task>
-    <task id="LOCAL-00067" summary="init2">
-      <created>1534138896206</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1534138896206</updated>
-    </task>
-    <task id="LOCAL-00068" summary="init2">
-      <created>1534139203039</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1534139203039</updated>
+      <workItem from="1557800562510" duration="1687000" />
+      <workItem from="1566239866005" duration="65000" />
     </task>
     <task id="LOCAL-00069" summary="init2">
       <created>1534141691473</created>
@@ -672,51 +660,36 @@
       <option name="project" value="LOCAL" />
       <updated>1557799188523</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="ami 수정">
+      <created>1557801390542</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1557801390542</updated>
+    </task>
+    <task id="LOCAL-00117" summary="color 수정">
+      <created>1557807592562</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1557807592562</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269616000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="918" y="315" width="1568" height="1001" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82051283" visible="true" weight="0.25622544" />
-      <window_info id="Learn" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Structure" order="5" sideWeight="0.17948718" side_tool="true" weight="0.17160213" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49285033" weight="0.11347517" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4921363" visible="true" weight="0.19471948" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5078637" side_tool="true" visible="true" weight="0.19471948" />
-      <window_info anchor="bottom" id="Docker" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -725,141 +698,14 @@
     <MESSAGE value="init2" />
     <MESSAGE value="added dApp pullstack development" />
     <MESSAGE value="added pdf" />
-    <MESSAGE value="ami 수정" />
     <MESSAGE value="이미지 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 수정" />
+    <MESSAGE value="ami 수정" />
+    <MESSAGE value="color 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="color 수정" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission2_step3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission1_step1-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" selection-start-line="75" selection-end-line="79" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission1_step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="95" column="89" selection-start-line="95" selection-start-column="89" selection-end-line="95" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="296" column="27" selection-start-line="296" selection-start-column="27" selection-end-line="296" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation_Kor2.json" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="96" selection-start-line="96" selection-start-column="96" selection-end-line="96" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission1_step1-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lecture0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation_kor.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/aws_images/mission3_step1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission1_step1-1-kor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission3_step1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission0_cloudFormation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="26" column="123" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation_KOR.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mission1_step1-2-kor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/AWS_CloudFormation.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
